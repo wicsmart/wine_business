@@ -17,7 +17,7 @@ df = etl.transform_df_expvinho(df_ex_vinho)
 st.title('Análise de Países Importadores de Vinho')
 
 # Layout do aplicativo
-tab0, tab1, tab2, tab3 = st.tabs(["Relevantes","Histórico Top 5",])
+tab0, tab1, tab2 = st.tabs(["Relevantes","Histórico Top 5",])
 
 # Separando as Tabs
 with tab0:
